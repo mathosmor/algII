@@ -55,4 +55,4 @@ int main()
 
 
 }
-// mathosmor 2.0
+// mathosmor
