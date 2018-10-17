@@ -28,25 +28,29 @@ float div(float x, float y)
 	return a;
 }
 
+int ler()
+{
+	int a;
+	printf("Digite o numero  ");
+	scanf_s("%i", &a);
+	return a;
+}
 
 
 
 int main()
 {
-	int a;
-	printf("Digite o primeiro numero  ");
-	scanf_s("%i", &a);
+	int primeiro = ler();
+	int segundo = ler();
 
-	int b;
-	printf("Digite o segundo numero  ");
-	scanf_s("%i", &b);
+	
 
 
 
-	int r = soma(a, b);
-	int s = sub(a, b);
-	float d = div(a, b);
-	int m = mult(a, b);
+	int r = soma(primeiro, segundo);
+	int s = sub(primeiro, segundo);
+	float d = div(primeiro, segundo);
+	int m = mult(primeiro, segundo);
 
 	printf("\tValor da soma : %i\n ", r);
 	printf("\tValor da subtracao : %i\n ", s);
