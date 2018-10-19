@@ -1,0 +1,4 @@
+﻿1>------ Compilação iniciada: Projeto: Aula1810_condicionais, Configuração: Debug Win32 ------
+1>Aula1810_condicionais.cpp
+1>Aula1810_condicionais.vcxproj -> C:\Users\1800155\source\repos\algII\ConsoleApplication2\Debug\Aula1810_condicionais.exe
+========== Compilar: 1 com êxito, 0 com falha, 0 atualizados, 0 ignorados ==========
